@@ -1,5 +1,4 @@
 #include <SimpleKalmanFilter.h>
-#include <ss_oled.h>
 
 // Pin definition
 #define ECHO_PIN 10
@@ -20,7 +19,6 @@ int blink_delay;
 bool state;
 
 SimpleKalmanFilter simpleKalmanFilter(0.2, 0.1, 0.001);
-SSOLED ssoled;
 
 void setup() {
   Serial.begin(115200);
