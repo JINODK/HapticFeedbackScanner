@@ -26,11 +26,6 @@ void setup() {
   pinMode(TRIG_PIN, OUTPUT);
   pinMode(PIR_PIN, INPUT);
   pinMode(LED_PIN, OUTPUT);
-  //oledInit(&ssoled, MY_OLED    , OLED_ADDR, FLIP180, INVERT, USE_HW_I2C, SDA_PIN, SCL_PIN, RESET_PIN, I2C_CLK);
-  oledInit(  &ssoled, OLED_128x64, 0x3C     , 0      , 0     , 0         , SDA_PIN, SCL_PIN, -1       , 400000L); // use standard I2C bus at 400Khz
-  oledFill(&ssoled, 0,1);
-  //oledWriteString(SSOLED *pOLED, int iScrollX, int x, int y, char *szMsg, int iSize, int bInvert, int bRender);
-  oledWriteString(&ssoled, 0, 0, 0, "-JINODK-", FONT_STRETCHED, 0, 1);
 }
 
 float scan() {
