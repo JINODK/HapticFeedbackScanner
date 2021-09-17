@@ -9,12 +9,12 @@ Object scanner with haptic feedback
 
 # Wiring
 Currently the circuit is wired as shown below:
-![image](https://user-images.githubusercontent.com/36285359/130676655-8f221120-cabd-4643-a285-a67b2371d934.png)
+![image](https://github.com/JINODK/HapticFeedbackScanner/blob/main/wiring_v3.png)
 
 # TODO
 - Improve stability
-- Add mode switch to switch between distance range
-- Add Motion detection function - if possible
+- Add mode switch to switch between distance range - DONE
+- Add Motion detection function - if possible - DONE
 
 # Note
 *This project is in its early stage, so do expect bugs to show up at any given time*
