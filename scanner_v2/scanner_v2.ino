@@ -1,3 +1,9 @@
+/*
+ * CHANGELOG:
+ * - code cleanup
+ * - remove unused stuff: oled display
+ * - optimise delay loop
+ */
 #include <SimpleKalmanFilter.h>
 
 // Pin definition

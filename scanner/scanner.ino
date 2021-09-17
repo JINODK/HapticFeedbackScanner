@@ -1,3 +1,7 @@
+/*
+ * CHANGELOG:
+ * - initial development
+ */
 #include <SimpleKalmanFilter.h>
 #include <ss_oled.h>
 
